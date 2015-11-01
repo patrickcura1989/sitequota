@@ -1,0 +1,513 @@
+.myTable td
+{
+	border               : 0px solid #CCC;
+	border-collapse      : collapse;
+	background            : #EFECE5;
+    font				: 14px/18px 'RobotoLight', Arial, sans-serif;
+	
+}
+.myTable
+{
+	border                :none;
+	
+}
+.myTable thead th,
+.myTable tbody th
+{
+	background            : #FFF url(th_bck.gif) repeat-x;
+    color                 : #666;  
+	padding               : 5px 10px;
+    border-left           : 1px solid #CCC;
+	font				  : 14px/23px 'RobotoLight', Arial, sans-serif;
+	
+}
+.myTable tbody th
+{
+  background            : #EFECE5;
+  border-top            : 0px solid #CCC;
+  border-bottom         : 0px solid #CCC;
+  border-right          : 0px solid #CCC;
+  border-left          : 0px solid #CCC;
+  text-align            : left;
+  font-weight           : bold;
+}
+.myTable tbody tr td
+{
+	padding               : 2px 5px;
+	color                 : #666;
+	
+	/*white-space: nowrap;*/
+	
+}
+.myTable tfoot td,
+.myTable tfoot th
+{
+  border-left           : none;
+  border-top            : 1px solid #CCC;
+	padding               : 4px;
+  background            : #FFF url(foot_bck.gif) repeat;
+  color                 : #666;
+}
+caption
+{
+	text-align            : left;
+	font-size             : 120%;
+	padding               : 10px 0;
+	color                 : #666;
+}
+.myTable a:link
+{
+	color                 : #666;
+}
+.myTable a:visited
+{
+	color                 : #666;
+}
+.myTable a:hover
+{
+	color                 : #003366;
+	text-decoration       : none;
+}
+.myTable a:active
+{
+	color                 : #003366;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font: 12px/15px 'RobotoLight', Arial, sans-serif;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+	
+}.myButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.myButtonHeader {
+	width: 200px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	font	: 14px/20px 'RobotoLight', Arial, sans-serif;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+.myButtonHeader:active {
+	padding-top: 8px;
+        margin-bottom: -1px;
+}
+.myButtonHeader, .myButtonHeader:hover, .myButtonHeader:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.myButtonHeader {
+	background-color: #3fb8e8;
+	box-shadow: 0px 3px 0px 0px #3293ba;
+}
+.myButtonHeader:hover {
+	background-color: #1baae3;
+}
+.myButtonHeader:active {
+	box-shadow: 0px 1px 0px 0px #3293ba;
+}
+
+.flatButton {
+	color: #fff;
+	margin-top: 0px;
+	margin-right: 10px;
+	padding: 6px 15px;
+	font	: 14px/20px 'RobotoLight', Arial, sans-serif;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+
+.flatButton:active {
+	padding-top: 8px;
+    margin-bottom: -1px;
+}
+.flatButton, .flatButton:hover, .flatButton:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.flatButton {
+	background-color: #3fb8e8;
+	box-shadow: 0px 0px 0px 0px #3293ba;
+}
+.flatButton:hover {
+	background-color: #1baae3;
+}
+.flatButton:active {
+	box-shadow: 0px 0px 0px 0px #3293ba;
+}
+
+.buttonExpandCollapse {
+	
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px 20px;
+	font	: 14px/20px 'RobotoLight', Arial, sans-serif;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: #fff;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	color: #fff;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+.buttonExpandCollapse:active {
+	padding-top: 8px;
+        margin-bottom: -1px;
+}
+.buttonExpandCollapse, .buttonExpandCollapse:hover, .buttonExpandCollapse:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.buttonExpandCollapse {
+	background-color: #3fb8e8;
+	box-shadow: 0px 3px 0px 0px #3293ba;
+}
+.buttonExpandCollapse:hover {
+	background-color: #1baae3;
+}
+.buttonExpandCollapse:active {
+	box-shadow: 0px 1px 0px 0px #3293ba;
+}
+
+
+.headerTable 
+{	
+	  background            : #fafafb;
+	  color                 : #666;  
+	  border-collapse      : collapse;
+	  width					:1500px;
+	  border-top            : 1px solid #CCC;
+	  border-right          : 1px solid #CCC;
+	  border-left           : 1px solid #CCC;
+	  border-bottom         : 1px solid #CCC;
+	  text-align            : left;
+	  font-weight           : bold;
+	  padding				: 5px;
+	  font	: 14px/20px 'RobotoLight', Arial, sans-serif;
+}
+.myH3{
+   font: 18px/27px 'RobotoLight', Arial, sans-serif;
+}
+
+
+hr{
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+hr.carved{
+	clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 2px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #787878 ;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(0.5, rgb(221,221,221)),
+      color-stop(0.5, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      center top,
+      rgb(221,221,221) 50%,
+      rgb(255,255,255) 50%
+  );
+}
+
+
+
+input{
+	font: 13px/15px 'RobotoLight', Arial, sans-serif;
+}
+
+progress {
+   -webkit-appearance: none;
+   background: orangered;
+}
+/****************************************/
+.progressRed progress{  
+    background-color: #ff0000;
+	border: 0;  
+    height: 18px;  
+    border-radius: 9px;  
+} 
+.progressRed progress::-webkit-progress-bar { background: #fff; }
+.progressRed progress::-webkit-progress-value { background: #ff3232; }
+/****************************************/
+
+/****************************************/
+.progressYellow progress{  
+    background-color: #f3f3f3;  
+    border: 0;  
+    height: 18px;  
+    border-radius: 9px;  
+} 
+.progressYellow progress::-webkit-progress-bar { background: #fff; }
+.progressYellow progress::-webkit-progress-value { background: #ffff00; }
+/****************************************/
+
+/****************************************/
+.progressGreen progress{  
+    background-color: #f3f3f3;  
+    border: 0;  
+    height: 18px;  
+    border-radius: 9px;  
+} 
+.progressGreen progress::-webkit-progress-bar { background: #fff; }
+.progressGreen progress::-webkit-progress-value { background: #66CD00; }
+
+.prioritizeButton {
+/*not yet used*/
+	margin-top: 0px;
+	margin-right: 10px;
+	padding: 6px 15px;
+	font	: 14px/20px 'RobotoLight', Arial, sans-serif;
+	line-height: 100%;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+	color: white;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.1s ease-in-out;
+	-webkit-transition: background 0.1s ease-in-out;
+	-moz-transition: background 0.1s ease-in-out;
+	-ms-transition: background 0.1s ease-in-out;
+	-o-transition: background 0.1s ease-in-out;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+}
+.prioritizeButton:active {
+	padding-top: 8px;
+        margin-bottom: -1px;
+}
+.prioritizeButton, .prioritizeButton:hover, .prioritizeButton:active {
+	outline: 0 none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.prioritizeButton {
+	background-color: #ff4c4c;
+	box-shadow: 0px 3px 0px 0px #ff3232;
+}
+.prioritizeButton:hover {
+	background-color: #ff1919;
+}
+.prioritizeButton:active {
+	box-shadow: 0px 1px 0px 0px #3293ba;
+}
+
+.myFont{
+	font: 18px/27px 'RobotoLight', Arial, sans-serif;
+}
+
+.sidebarAnchor{
+	font: 15px 'RobotoLight', Arial, sans-serif;
+	text-decoration: none;
+}
+.sidebarAnchor:visited
+{
+	color : black;
+}
+
+.sidebarTable{
+		
+	width : 100%;
+	
+}
+
+.sidebarTable td{
+	padding:10px;
+}
+
+.sidebarTable tr:hover{
+	background: #e0e0e0;
+}
+.sidebarTable td:hover{
+	background: #e0e0e0;
+}
+
+.mySelect{
+	font: 16px 'RobotoLight', Arial, sans-serif;
+}
+
+
+
+.memberTicketsTable
+{
+	font-family: 'RobotoLight';
+	
+	font-size: 13px;
+	margin: 0px;
+	width: 600px;
+	max-height: 500px;
+	text-align: left;
+
+}
+.memberTicketsTable thead th.rounded-company
+{
+	background: #b9c9fe  left -1px no-repeat;
+}
+.memberTicketsTable thead th.rounded-q4
+{
+	background: #b9c9fe right -1px no-repeat;
+}
+.memberTicketsTable th
+{
+	padding: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	color: 666666;
+	background: #b9c9fe;
+	border-radius:0px;
+}
+.memberTicketsTable td
+{
+	border-radius:0px;
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #666666;
+}
+.memberTicketsTable tfoot td.rounded-foot-left
+{
+	background: #e8edff  left bottom no-repeat;
+}
+.memberTicketsTable tfoot td.rounded-foot-right
+{
+	background: #e8edff  right bottom no-repeat;
+}
+.memberTicketsTable tbody tr:hover td
+{
+	background: #d0dafd;
+}
+
+#priority1{
+	background: #ff4c4c;
+}
+#priority2{
+	background: #ffff32;
+}
+#priority3{
+	background: #ffb732;
+}
+#priority4{
+	background: #e59400;
+}
+
+.flatbutton {
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #33b5e5;
+  padding: 8px 16px 8px 16px;
+  text-decoration: none;
+  border: none;
+    outline: none;
+}
+
+.flatbutton:hover {
+  background: #0099cc;
+  text-decoration: none;
+}
+
+
+.ui-autocomplete li {
+	white-space:nowrap;
+	font-family:'RobotoLight';
+    font-size: 16px;
+}
+
+/****************************************/
+
+
+/************FOOTER CSS****************************/
+
+
+/************FOOTER CSS****************************/

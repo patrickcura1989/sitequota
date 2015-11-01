@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bar Chart</title>
+		<script src="../Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+		<style>
+			canvas{
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas" height="450" width="600"></canvas>
+
+
+	<script>
+
+		var barChartData = {
+			labels : ["Entry","Intermediate","Specialist","Expert","Manager"],
+			datasets : [
+				{
+					fillColor : "rgba(220,220,220,0.5)",
+					strokeColor : "rgba(220,220,220,1)",
+					data : [2,3,16,0,1]
+				}
+			],
+			
+			
+		}
+
+	var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Bar(barChartData);
+	
+	</script>
+	</body>
+</html>

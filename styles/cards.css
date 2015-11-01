@@ -1,0 +1,35 @@
+#card {
+    -webkit-transform-style: preserve-3d;
+    -webkit-perspective: 1000;
+    width: 200px;
+	height: 100px;
+	position: relative;
+	
+}   
+.back, .front {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 1s ease-in;
+    border-radius: 4px;
+}
+.back {
+	
+    -webkit-transform: rotateY(180deg);
+    overflow: hidden;
+	background-color:red;
+    
+}   
+.front {
+    
+}
+#card-container {
+    display: inline-block;
+    text-align: justify;
+	
+}   
+#card-container:hover .back {   
+    -webkit-transform: rotateY(0deg);
+}
+#card-container:hover .front {      
+    -webkit-transform: rotateY(-180deg);
+}
